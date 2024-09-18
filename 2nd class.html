@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Glenn Maxwell</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            
+        }
+    </style>
+    </head>
+    <body>
+        <p id="maxi1"></p>
+        <p id="maxi2"></p>
+        <p id="maxi3"></p>
+        <p id="maxi4"></p>
+        <script>
+            var sum,mul,div,sub;
+            // Function Declaration//
+            function addnumber(a,b){
+                var c;
+                c=a+b;
+                return c;
+            }
+           sum=addnumber(100,100);// Function Call//
+
+
+           
+           function mulnumber(f,g){
+            var j;
+            k=f*g;
+            return k;
+           }
+           mul=mulnumber(100,89);
+
+        
+            function divitionnumber(c,d){
+                var e;
+                e=c/d;
+                return e;
+            }
+            div=divitionnumber(555,5);
+            function subnumber(v,x){
+                var z;
+                z=v-x;
+                return z;
+            }
+            sub=subnumber(6985,213)
+            document.getElementById("maxi1").innerHTML="This is sum:" + sum;
+            document.getElementById("maxi2").innerHTML="This is multiplication:" + mul;
+            document.getElementById("maxi3").innerHTML="This is division:" + div;
+            document.getElementById("maxi4").innerHTML="This is substraction:" + sub;
+        </script>
+    </body>
+</html>
